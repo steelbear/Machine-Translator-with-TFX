@@ -1,0 +1,7 @@
+poetry.lock
+*.ipynb
+*.pyc
+
+data/*
+metadata/*
+FileBasedExampleGen/*

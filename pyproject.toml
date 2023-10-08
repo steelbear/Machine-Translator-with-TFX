@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "machine-translator-with-tfx"
+version = "0.1.0"
+description = "Kor-Eng Machine Translator training and running on TFX Pipeline"
+authors = ["steelbear <steelbear@kunsan.ac.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+apache-beam = ">=2.47,<2.50"
+tfx = "^1.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+tensorflow-model-analysis = "^0.45.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
