@@ -7,3 +7,12 @@ TFX를 이용해 기계 번역 모델을 지속적으로 학습시키고 배포�
 한국어-영어 기계 번역 모델을 지속적으로 학습시키고 배포하는 시스템을 만듭니다.
 학습된 모델은 Tensorflow Serving와 Gradio로 제공하고 피드백을 받을 것입니다.
 학습할 모델은 Seq2Seq나 Transformer와 같은 다양한 모델을 사용해볼 것입니다.
+
+## 파이프라인 실행
+### Local DAG
+```bash
+poetry run python pipelines/pipeline.py
+```
+
+## 데이터셋
+[일상생활 및 구어체 한-영 번역 병렬 말뭉치 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71265)
