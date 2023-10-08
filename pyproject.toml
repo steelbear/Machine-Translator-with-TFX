@@ -7,13 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
-apache-beam = ">=2.47,<2.50"
 tfx = "^1.14.0"
 
-
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.25.2"
-tensorflow-model-analysis = "^0.45.0"
 
 [build-system]
 requires = ["poetry-core"]
