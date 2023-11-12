@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 tfx = "^1.14.0"
+transformers = "^4.34.1"
+sentencepiece = "^0.1.99"
 
 [tool.poetry.group.dev.dependencies]
 
